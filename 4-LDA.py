@@ -13,7 +13,7 @@ from tqdm import tqdm
 from matplotlib import font_manager
 
 # 设置文件路径
-preprocessed_file = '/Users/jhx/Documents/Code/小红书/小红书/preprocessed_data.jsonl'  # 预处理后的数据文件路径
+preprocessed_file = ''  # 预处理后的数据文件路径
 
 def main():
     # 1. 读取预处理后的数据
@@ -52,7 +52,7 @@ def main():
     coherences = []
 
     # 6. 设置中文字体
-    font_path = '/Users/jhx/Library/Fonts/SourceHanSansCN-Regular.otf'  # 指定的中文字体路径
+    font_path = ''  # 指定的中文字体路径
     font_prop = font_manager.FontProperties(fname=font_path)
     plt.rcParams['font.family'] = font_prop.get_name()
     plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示问题

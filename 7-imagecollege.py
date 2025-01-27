@@ -3,8 +3,8 @@ import random
 from PIL import Image
 
 # 设置路径
-image_folder = "/Users/jhx/Documents/Code/小红书/xiaohongshu_oeasy/downloaded_images"
-output_image_path = "/Users/jhx/Documents/Code/小红书/xiaohongshu_oeasy/final_collage.jpg"
+image_folder = "xiaohongshu_oeasy/downloaded_images"
+output_image_path = "final_collage.jpg"
 
 # 拼接参数
 grid_rows = 20  # 行数

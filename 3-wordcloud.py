@@ -12,9 +12,9 @@ import os
 # 输入文件：应是分词后含 'text_processed' 字段的 JSONL 文件
 data_file = 'preprocessed_data.jsonl'
 # 停用词表（可选），若无需则留空
-stopword_path = '/Users/jhx/Documents/Code/hit_stopwords.txt'
+stopword_path = ''
 # 字体文件路径（用于绘制中文词云）
-font_path = '/Users/jhx/Library/Fonts/SourceHanSansCN-Regular.otf'
+font_path = ''
 # 输出结果文件
 output_tfidf_json = 'tfidf_result.json'
 output_wordcloud_img = 'wordcloud.png'

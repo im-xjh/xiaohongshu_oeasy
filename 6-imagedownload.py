@@ -5,8 +5,8 @@ import json
 import requests
 
 # 定义文件路径
-jsonl_file_path = "/Users/jhx/Documents/Code/小红书/xiaohongshu_oeasy/preprocessed_data.jsonl"
-save_directory = "/Users/jhx/Documents/Code/小红书/xiaohongshu_oeasy/downloaded_images"
+jsonl_file_path = "preprocessed_data.jsonl"
+save_directory = "xiaohongshu_oeasy/downloaded_images"
 
 # 确保保存目录存在
 if not os.path.exists(save_directory):

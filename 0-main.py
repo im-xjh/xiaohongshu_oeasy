@@ -14,8 +14,8 @@ from urllib.parse import quote
 
 # ========== 全局配置部分 ==========
 
-chrome_driver_path = "/Users/jhx/chromedriver"  
-user_data_dir = "/Users/jhx/ChromeProfile"      
+chrome_driver_path = ""  
+user_data_dir = ""      
 max_notes = 500  # 每个关键词最多抓取的笔记数
 
 # 实时输出的 JSONL 文件：保存笔记链接 & 详细内容
